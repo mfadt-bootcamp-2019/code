@@ -66,4 +66,4 @@ It’s almost cheesy now to talk about the “growth mindset,” the idea that y
 
 This is why, also, try not to get intimidated by other people’s code—or by programmers who breezily boast online, when you read a thread on Stack Overflow about how obvious some concept is. Ignore them. Everything in coding is hard the first time you do it. “Never compare yourself to others and don’t take online criticism personally,” says Lydia Hallie, a 21-year-old woman in Stockholm, who taught herself to code as a teenager. “The fact that you’re struggling when you’re teaching yourself how to code is completely normal and doesn’t say anything about how good of a programmer you’ll be later.”
 
-- [Learn to Code](https://tim.blog/2019/03/21/learn-to-code/)
+– [Learn to Code](https://tim.blog/2019/03/21/learn-to-code/)
