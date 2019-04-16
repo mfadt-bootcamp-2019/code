@@ -25,7 +25,7 @@ The Code section of Bootcamp will foster a growth-mindset, practice-based approa
 
 What makes a good coder? (growth-mindset, grit, and the cultivation of passion.) Introduction to programming fundamentals (basic logic patterns, arithmetic, data storage, algorithms),  creative coding, and the Processing IDE. Working with github. 
 
-** Week 2**
+**Week 2**
 
 Coding as noun and coding as verb, the practice of code, exploring application domains (graphics, interactivity, networks), flowcharting and pseudocode exercises. Introduction to functions, arrays, libraries, objects. 
 
