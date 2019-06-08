@@ -13,6 +13,7 @@
 * Pseudocode: how would we create something like this?
 	* Pair psuedocode programming (one person draws pattern as dictated by another person)
 * Livecoding one pattern together ([this beautiful one](https://nmwa.org/works/untitled-3))
+* Creating a pattern and using noise in it
 
 #### What you can do on your own
 
