@@ -21,7 +21,6 @@ void draw() {
 			int y = j * height/circlesPerLine + height/circlesPerLine/2;
 			float sizeX = noise(x, y, float(frameCount)/100.0) * circleSize;
 			float sizeY = noise(x, y, float(frameCount)/100.0) * circleSize;
-			println(float(frameCount)/100.0);
 			ellipse(x, y, sizeX, sizeY);
 		}
 	}
