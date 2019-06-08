@@ -1,4 +1,4 @@
-# Day 08, Arrays & Randomness
+# Day 08 & 09, Arrays & Randomness
 
 > Arrays and randomness
 
