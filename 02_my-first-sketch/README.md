@@ -8,6 +8,7 @@
 - Java–the language we are using in Processing and how is it different from other computer languages
 - Why and When do we use Processing
 - The structure of a processing sketch
+  - Open this [example code](⁨intro_01⁩/intro_01.pde)
   - Console
   - Canvas
     - Catersian Coordinate
