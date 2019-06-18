@@ -2,7 +2,7 @@
 
 > Review Functions and Learn about for and while loops
 
-####What we will learn today:
+#### What we will learn today:
 
 - What is loop?
   - Controls a sequence of repetitions
@@ -12,12 +12,12 @@
   - What are operators?
     - ++, +=, -=...
 - Now we will rewrite the activities in code on Processing
-  ![loop1](img/loop1.png)
-  ![loop2](img/loop2.png)
-  ![loop3](img/loop3.png)
+  ![loop1](img/loop1.png | width=600)
+  ![loop2](img/loop2.png | width=600)
+  ![loop3](img/loop3.png | width=600)
 - Learn Map() function
 
-####Homework
+#### Homework
 
 - We will create a full canvas of color gradient
-  ![example](img/gradient-screenshot.png)
+  ![example](img/gradient-screenshot.png | width=600)
