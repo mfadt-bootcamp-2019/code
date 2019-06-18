@@ -32,7 +32,7 @@ void draw() {
 
 #### Assignment/Homework
 
-- Create a sketch with one of the 2D Primitive from the Processing Reference
+- Create a sketch with one or more 2D Primitives from the Processing Reference
 - Use at least 3 variables
 - https://processing.org/reference/
 
