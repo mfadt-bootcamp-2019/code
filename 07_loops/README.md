@@ -15,7 +15,7 @@
   ![loop1](img/loop1.png)
   ![loop2](img/loop2.png)
   ![loop3](img/loop3.png)
-- Learn Map()
+- Learn Map() Function
 
 #### Homework
 
@@ -24,3 +24,4 @@
   - Be creative! Try different ways of using loops.
     ![example](img/example1.png)
     ![example](img/example2.png)
+    ![example](img/example3.png)
