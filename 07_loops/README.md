@@ -12,12 +12,15 @@
   - What are operators?
     - ++, +=, -=...
 - Now we will rewrite the activities in code on Processing
-  ![loop1](img/loop1.png | width=600)
-  ![loop2](img/loop2.png | width=600)
-  ![loop3](img/loop3.png | width=600)
+  ![loop1](img/loop1.png)
+  ![loop2](img/loop2.png)
+  ![loop3](img/loop3.png)
 - Learn Map()
 
 #### Homework
 
-- We will create a full canvas of color gradient
-  ![example](img/gradient-screenshot.png | width=600)
+- We will create a full canvas of color gradient.
+  - Try your way to recreate with any color of your choice.
+  - Be creative! Try different ways of using loops.
+    ![example](img/example1.png)
+    ![example](img/example2.png)
