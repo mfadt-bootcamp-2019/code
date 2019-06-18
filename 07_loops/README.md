@@ -15,7 +15,7 @@
   ![loop1](img/loop1.png | width=600)
   ![loop2](img/loop2.png | width=600)
   ![loop3](img/loop3.png | width=600)
-- Learn Map() function
+- Learn Map()
 
 #### Homework
 
