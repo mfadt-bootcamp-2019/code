@@ -5,7 +5,7 @@
 
 **Time** 1:30-3:30 M-F
 
-### Learning Outcomes
+### Learning Outcome(s)
 
 * Gain familiarity with coding as a multi-disciplinary creative art and design practice. 
 * Identify and manipulate the components of an integrated development environment. 
