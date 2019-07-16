@@ -35,7 +35,8 @@ void draw() {
 			xDirections[i] = xDirections[i] * -1;
 		}
 		// Draw the ball
-		fill(lerpColor(ballColorStart, ballColorEnd, yPositions[i]/height));
+		// fill(lerpColor(ballColorStart, ballColorEnd, yPositions[i]/height));
+		fill(ballColorStart);
 		ellipse(xPositions[i], yPositions[i], ballSize, ballSize);
 		// Change the y and x values
 		xPositions[i] = xPositions[i] + incrementer*xDirections[i];
