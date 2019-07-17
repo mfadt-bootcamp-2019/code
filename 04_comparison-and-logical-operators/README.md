@@ -5,16 +5,12 @@
 * TF points of contact: Michael, Anna
 * Status: in progress
 
----
 
 ## Summary
 This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logical operators (e.g. `&&`, `||`, `!`) through a series of hands-on Processing sketches.
 
----
 
-## Classflow
-
-### Operators
+## Operators
 
 **Operators** are symbols that act on variables. We already know what variables are. But what does act `act on` mean? ...It can mean many things.
 
@@ -44,10 +40,10 @@ Keep reading:
 * [Processing - Logical Operators](https://processing.org/examples/logicaloperators.html)
 
 
-### Quadrant exercise
+## Quadrant exercise
 TODO(anna)
 
-### Reflection
+## Reflection
 TODO(anna)
 
 
