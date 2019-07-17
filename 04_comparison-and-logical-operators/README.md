@@ -12,7 +12,7 @@ This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logica
 
 ## Operators
 
-**Operators** are symbols that act on variables. We already know what variables are. But what does act `act on` mean? ...It can mean many things.
+**Operators** are symbols that act on variables. What does act *act on* mean? ...It can mean many things.
 
 * Some operators stand for actions that are applied between values (e.g. *x **`divided by`** 5*).
 * Some test relationships between values (e.g. *x **`does not equal`** 5*).
