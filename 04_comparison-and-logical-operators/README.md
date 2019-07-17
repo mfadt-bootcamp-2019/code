@@ -20,7 +20,7 @@ This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logica
 
 In Processing, operators are applied *between* the values that they act on or describe (note that not *all* languages do this).
 
-[**Summary of Processing Operators**][1]
+**Summary of Processing Operators** [(from Processing)][1]
 
 | Operator type  | Description | Symbols |
 | -------------- | ----------- | :------:|
