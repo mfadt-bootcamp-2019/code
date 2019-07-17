@@ -2,7 +2,6 @@
 
 * **Comparison and logical operators** 
 * Aug 1, 2019
-* TF points of contact: Michael, Anna
 * Status: in progress
 
 
@@ -16,8 +15,8 @@ This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logica
 
 * Some operators stand for actions that are applied between values (e.g. *x **`divided by`** 5*).
 * Some test relationships between values (e.g. *x **`does not equal`** 5*).
-* Some combine relationship tests (e.g. *x `does not equal` 5 **`AND`** x `does not equal` 7*).
-* Some assign values to variables (e.g. *x **`=`** 5*)
+* Some combine multiple relationship tests (e.g. *x `does not equal` 5 **`AND`** x `does not equal` 7*).
+* Some assign values to variables (e.g. *x **`equals`** 5*)
 
 In Processing, operators are applied *between* the values that they act on or describe (note that not *all* languages do this).
 
