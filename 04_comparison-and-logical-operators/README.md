@@ -11,7 +11,7 @@ This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logica
 
 ## Operators
 
-**Operators** are symbols that *operate* on values. In Processing syntax, operators are positioned *between* the values that they operate on. *Operate on* can mean many things.
+**Operators** are symbols that *operate* on values. In Processing syntax, operators are positioned between the values that they operate on (e.g. x `multiplied by` 5). *Operate on* can mean many things.
 
 **Summary of Processing Operators** [(see Processing reference page)][1]
 
