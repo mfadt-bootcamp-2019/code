@@ -19,7 +19,7 @@ This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logica
 | -------------- | ----------- | :------:| ------- |
 | Multiplicative | Multiply, divide, or find remainder of two values | `*`, `/`, `%` | `x * 5` <br> *x multiplied by five* |
 | Additive       | Add or find the difference between two values | `+`, `-` | `x + 5` <br> *x plus five* |
-| Relational     | Test whether one value is less than or greater than another | `<`, `>`, `<=`, `>=` | `x > 5` <br> *x is greater than 5 |
+| Relational     | Test whether one value is less than or greater than another | `<`, `>`, `<=`, `>=` | `x > 5` <br> *x is greater than 5* |
 | Equality       | Test whether two values are either equal or not | `==`, `!=` | `x == 5` <br> *x is equal to 5* |
 | Logical AND    | Combine multiple relational or equality tests with AND | `&&` | `x == 5 && y > 7` <br> *x is equal to five AND y is greater than seven* |
 | Logical OR     | Combine multiple relational or equality tests with OR | `\|\|` | `x == 5 \|\| y > 7` <br> *Either x is equal to five OR y is greater than seven* |
