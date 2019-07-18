@@ -7,8 +7,6 @@
 - How colors work in [Processing](https://processing.org/reference/color_.html)?
 - What an if statement is, and how to use it
 - Why and When do we use Processing
-- We will discuss different operators
-  - +, -, *, /, >, <, ==, &&, !
 
 
 
