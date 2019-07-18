@@ -33,7 +33,18 @@ Keep reading:
 
 
 ## Quadrant exercise
-TODO(anna)
+In this exercise, we use quadrants (a hopefully familiar visual concept) to explore comparison and logical operators. Beginning with [Day 3's code][3], we add quadrant lines that will help guide us through these exercises:
+
+```
+# During every draw frame, we redraw these guidelines
+stroke(255, 0, 0);                       // red stroke
+line(width / 2, 0, width / 2, height);   // vertical line
+line(0, height / 2, width, height / 2);  // horizontal line
+stroke(0);                               // reset stroke
+ ```
+ 
+ TODO(anna): add screenshots
+ 
 
 ## Reflection
 TODO(anna)
@@ -41,3 +52,4 @@ TODO(anna)
 
 [1]: https://processing.org/examples/operatorprecedence.html
 [2]: https://processing.org/examples/logicaloperators.html
+[3]: https://github.com/mfadt-bootcamp-2019/code/blob/master/03_Conditions/day03_final_code/day03_final_code.pde
