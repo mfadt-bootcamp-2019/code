@@ -35,8 +35,8 @@ Keep reading:
 ## Quadrant exercise
 In this exercise, we use quadrants (a hopefully familiar visual concept) to explore comparison and logical operators. Beginning with [Day 3's code][3], we add quadrant lines that will help guide us through these exercises:
 
-```
-# During every draw frame, we redraw these guidelines
+```java
+// Draw quadrant guidelines every frame after clearing background
 stroke(255, 0, 0);                       // red stroke
 line(width / 2, 0, width / 2, height);   // vertical line
 line(0, height / 2, width, height / 2);  // horizontal line
