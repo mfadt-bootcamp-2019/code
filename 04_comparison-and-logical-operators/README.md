@@ -11,26 +11,19 @@ This module introduces comparison operators (e.g. `<`, `>`,`==`,`!=`) and logica
 
 ## Operators
 
-**Operators** are symbols that *operate* on values. What does *operate on* mean? ...It can mean many things.
+**Operators** are symbols that *operate* on values. In Processing syntax, operators are positioned *between* the values that they operate on. *Operate on* can mean many things.
 
-* Some operators stand for actions that are applied between values (e.g. *x **`divided by`** 5*).
-* Some test relationships between values (e.g. *x **`does not equal`** 5*).
-* Some combine multiple relationship tests (e.g. *x `does not equal` 5 **`AND`** x `does not equal` 7*).
-* Some assign values to variables (e.g. *x **`equals`** 5*)
+**Summary of Processing Operators** [(see Processing reference page)][1]
 
-In Processing, operators are applied *between* the values that they act on or describe (note that not *all* languages do this).
-
-**Summary of Processing Operators** [(from Processing)][1]
-
-| Operator type  | Description | Symbols |
-| -------------- | ----------- | :------:|
-| Multiplicative | *Multiply, divide, or find remainder of two values* | `*`, `/`, `%` |
-| Additive       | *Add or find the difference between two values* | `+`, `-` |
-| Relational     | *Test whether one value is less than or more than another* | `<`, `>`, `<=`, `>=` |
-| Equality       | *Test whether two values are either equal or not* | `==`, `!=` |
-| Logical AND    | *Combine multiple relational or equality tests with AND* | `&&` |
-| Logical OR     | *Combine multiple relational or equality tests with OR* | `\|\|` |
-| Assignment     | *Assign value to variable* | `=`, `+=`, `-=`, `*=`, `/=`, `%=` |
+| Operator type  | Description | Symbols | Example use |
+| -------------- | ----------- | :------:| ------- |
+| Multiplicative | Multiply, divide, or find remainder of two values | `*`, `/`, `%` | `x * 5` <br> *x multiplied by five* |
+| Additive       | Add or find the difference between two values | `+`, `-` | `x + 5` <br> *x plus five* |
+| Relational     | Test whether one value is less than or more than anothe | `<`, `>`, `<=`, `>=` | `x > 5` <br> *x is greater than 5 |
+| Equality       | Test whether two values are either equal or not | `==`, `!=` | `x == 5` <br> *x is equal to 5* |
+| Logical AND    | Combine multiple relational or equality tests with AND | `&&` | `x == 5 && y > 7` <br> *x is equal to five AND y is greater than seven* |
+| Logical OR     | Combine multiple relational or equality tests with OR | `\|\|` | `x == 5 \|\| y > 7` <br> *Either x is equal to five OR y is greater than seven* |
+| Assignment     | Assign value to variable | `=`, `+=`, `-=`, `*=`, `/=`, `%=` | `x = 5` <br> *Assign x the value of five* |
 
 In this module, we will use *Relational*, *Equality*, *Logical AND*, *Logical OR*, and *Assignment operators*.
 
