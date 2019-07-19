@@ -45,8 +45,20 @@ stroke(0);                               // reset stroke
  
  ![quad_0000](readme_images/quad_0000.png)
  
- TODO(anna): add screenshots
- 
+### Part 1: a simple walk-through
+
+In yesterday's module, we created a sketch where a box follows the mouse. When the mouse is pressed, the box turns orange.
+How might we modify that sketch so that when the mouse **is in the top left quadrant**, the box turns orange?
+
+First, we can define the top left quadrant using *relational* and *logical operators*.
+*    In English, we'd say "x is **less than** half the width **AND** y is **less than** half the height".
+*    In Processing syntax, we'd say `(x < width / 2) && (y < height / 2)`.
+
+![quad_0000](readme_images/quad_1000.png)
+
+
+### Part 2: working through a more complex problem together
+
 
 ## Reflection
 TODO(anna)
