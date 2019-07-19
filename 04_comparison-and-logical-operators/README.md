@@ -52,11 +52,15 @@ How might we modify that sketch so that when the mouse **is in the top left quad
 
 First, we can define the top left quadrant using *relational* and *logical operators*.
 *    In English, we'd say "x is **less than** half the width **AND** y is **less than** half the height".
-*    In Processing syntax, we'd say `(x < width / 2) && (y < height / 2)`.
+*    In Processing, we'd say `(x < width / 2) && (y < height / 2)`.
 
 ![quad_0000](readme_images/quad_1000.png)
 
-In our code, we can now use this condition to change the box's color.
+In our code, we want the box to change colors `if` the mouse's position is in the top left quadrant.
+*    In English, we'd say "mouseX is **less than** half the width **AND** mouseY is **less than** half the height".
+*    In Processing, we'd say `(mouseX < width / 2) && (mouseY < height / 2)`.
+
+Adding these conditions to our existing code, we get:
 
 ```java
 color c = color(255, 204, 0);
