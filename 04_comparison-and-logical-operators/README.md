@@ -78,7 +78,7 @@ if (colorActivated)
 
 ### Part 2: working through a more complex problem together
 
-Relational and logical operators are flexible when used together. Using the same method as above, we can describe each of our quadrants (as well as every possible combination of quadrants!). For example: 
+Relational and logical operators are powerful when used together. Using the same method as above, we can describe each of our quadrants (as well as every possible combination of quadrants!). For example: 
 
 | Image | Condition |
 | ----- | --------- |
