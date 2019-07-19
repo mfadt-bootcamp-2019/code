@@ -43,7 +43,7 @@ line(0, height / 2, width, height / 2);  // horizontal line
 stroke(0);                               // reset stroke
  ```
  
- ![quad_0000](04_comparison-and-logical-operators/readme_images/quad_0000.png)
+ ![quad_0000](readme_images/quad_0000.png)
  
  TODO(anna): add screenshots
  
