@@ -65,10 +65,7 @@ Adding these conditions to our existing code, we get:
 ```java
 color c = color(255, 204, 0);
 
-float mX = mouseX;
-float mY = mouseY;
-
-boolean colorActivated = (mX < width / 2) && (mY < height / 2);
+boolean colorActivated = (mouseX < width / 2) && (mouseY < height / 2);
 
 if(colorActivated)
   {
