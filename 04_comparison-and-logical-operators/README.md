@@ -56,6 +56,24 @@ First, we can define the top left quadrant using *relational* and *logical opera
 
 ![quad_0000](readme_images/quad_1000.png)
 
+In our code, we can now use this condition to change the box's color.
+
+```java
+color c = color(255, 204, 0);
+
+float mX = mouseX;
+float mY = mouseY;
+
+boolean colorActivated = (mX < width / 2) && (mY < height / 2);
+
+if(colorActivated)
+  {
+    fill(c);
+  }else
+  {
+   fill(0);
+  } 
+```
 
 ### Part 2: working through a more complex problem together
 
