@@ -67,16 +67,35 @@ color c = color(255, 204, 0);
 
 boolean colorActivated = (mouseX < width / 2) && (mouseY < height / 2);
 
-if(colorActivated)
+if (colorActivated)
   {
     fill(c);
-  }else
+  } else
   {
    fill(0);
   } 
 ```
 
 ### Part 2: working through a more complex problem together
+
+Conditional and logical operators are flexible when used together. Using the same method as above, we can describe each of our quadrants-- as well as every possible combination of quadrants. For example: 
+
+| Image | Condition |
+| ----- | --------- |
+| <img src="readme_images/quad_0100.png" width="150"/> | `(x > width / 2) && (y < height / 2)` |
+| <img src="readme_images/quad_0010.png" width="150"/> | `(x > width / 2) && (y > height / 2)` |
+| <img src="readme_images/quad_1100.png" width="150"/> | `x < width / 2` |
+| <img src="readme_images/quad_1010.png" width="150"/> | `((x < width / 2) && (y < height / 2)) \|\| ((x > width / 2) && (y > height / 2))` |
+| <img src="readme_images/quad_1011.png" width="150"/> | `!((x > width / 2) && (y < height / 2))` |
+
+In this exercise, you will see a gif of a sketch that uses relational and logical operators to determine various visual elements on the canvas. Your task as a class is to reverse engineer the sketch using what we've learned together so far.
+
+Suggested steps:
+
+1)   Observe
+2)   Describe
+3)   Pseudocode
+4)   Code
 
 
 ## Reflection
