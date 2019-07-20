@@ -1,24 +1,24 @@
-color c = color(255, 204, 0);
 int rectWidth = 55;
 int rectHeight = 55;
+color c = color(255,204,0);
+boolean isTrue = true;
 
 void setup(){
   size(640, 360);
 }
 
 void draw(){
-  boolean isPressed = mousePressed;
-  float mX = mouseX;
-  float mY = mouseY;
-  
   background(255);
-  rect(mX, mY, rectWidth, rectHeight);
+  fill(c);
+  rect(mouseX, mouseY, rectWidth, rectHeight);
   
-  if(isPressed)
+  if(isTrue)
   {
-    fill(c);
+    println("It's True!");
   }else
   {
-   fill(0);
-  } 
+    println("It's False!");
+  }
+  
+  
 }
