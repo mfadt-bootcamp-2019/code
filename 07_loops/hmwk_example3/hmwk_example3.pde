@@ -5,7 +5,8 @@ float r,g,b;
 //because we want to be able to manipulate the color based on the canvas position
 
 void setup(){
-  size(600,300);
+  size(600,300);//setting up the size
+  background(255); //White background
 }
 
 void draw(){
@@ -17,8 +18,8 @@ void draw(){
       g = map(y,0,height, 0,255); // from 0 to height on the y axis, the closer to the 0, the smaller the R value
       b = map(mouseX,0,width,0,255); // we use mouseX position to determine the B value. It changes based on where your mouse is on the X axis.
       //now we assign the three variables to fill() function to give rectangles color
-      fill(r,g,b); 
-      noStroke(); 
+      fill(r,g,b); //give rectangle colors
+      noStroke(); //shapes have no stroke line
       rect(x,y,5,5);
     }
   }
