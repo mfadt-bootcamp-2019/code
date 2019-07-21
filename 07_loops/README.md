@@ -9,7 +9,7 @@
 - We will learn what While & For loops are through some physical activities.
   - Get up a move around!
   - Line drawing 1,2,3 ways!
-  - What are operators?
+  - What are operators? Recap from Day 4
     - ++, +=, -=...
 - Now we will rewrite the activities in code on Processing
   ![loop1](img/loop1.png)
