@@ -45,15 +45,15 @@ There are many ways we could code this. Together we will write the code in five 
 
 **Challenge set 1**
 1) Modify the sketch to be 30x34 triangles rather than 10x10.
-1) How about 100x100?
-1) Change the colors from blue and orange to two different colors.
+1) How about 100x100? 500x500?
+1) Return the grid back to 30x34. Change the colors from blue and orange to green and purple.
 
 **Challenge set 2**
-1) Write an alternative method for producing the same class sketch. For example, consider using the rotate() function.
+1) Write an alternative method for producing the class sketch. For example, consider using the [`rotate()`](https://processing.org/reference/rotate_.html) function.
 1) For each grid position, add the option to drop an orange square instead of just triangles.
 1) Change the triangles / squares into randomly sized circles.
 1) Animate the pattern so that it changes every second.
 
 **Challenge set 3**
 1) Using arrays, loops, and randomness, recreate a new pattern by Anni Albers or another inspiration. 
-1) For an extra challenge, consider using noise() rather than random(). What changes?
+1) For an extra challenge, consider using [`noise()`](https://processing.org/reference/noise_.html) rather than `random()`. What changes?
