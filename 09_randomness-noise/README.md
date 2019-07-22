@@ -23,7 +23,7 @@ In pairs or small groups, take time to look at Anni Albers' ["Untitled - 1969"](
 
 > Note to Bootcamp TFs: we might even consider breaking the class into two at the start, and have one student (who has seen the pattern) to instruct another student (who hasn't seen the pattern) how to draw it.
 
-2) **How might you begin to code this?** What familiar tools (e.g. variables, loops, arrays, etc.) might you use? What else might you need to know? Use language, sketching, or pseudocode to put these ideas on paper.
+2) **How might you begin to code this?** What familiar tools (e.g. variables, loops, arrays, etc.) might you use? What else might you need to know? Use language, sketching, or pseudocode to put your thoughts on paper.
 
 
 ## Group coding (Processing)
