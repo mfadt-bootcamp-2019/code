@@ -4,22 +4,20 @@
 
 ## Summary
 
-This module continues our focus on randomness, loops, and arrays. Using these tools, we will recreate an [Anni Albers' painting](https://nmwa.org/works/untitled-3) together. In addition to the tools we learned yesterday, we'll think about higher-level processes like observing, strategizing, and breaking a large task into smaller tasks.
+This module continues our focus on randomness, loops, and arrays. Using these tools, we will recreate an [Anni Albers' painting](https://nmwa.org/works/untitled-3) together using Processing. In addition to reenforcing the coding tools we learned yesterday, we'll also think about higher-level processes like observing, strategizing, and breaking a large task into smaller tasks.
 
 The classtime will include:
 
-* Small group work (pencil and paper) - 45 min
-* Group coding (Processing) - 45 min
+* Small group work (pencil and paper) - 30 min
+* Group coding (Processing) - 50 min
 * Individual challenges (Processing) - 30 min
 
 
 ## Small group work (pencil and paper)
 
-In pairs or small groups, take time to look at this Albers painting in detail.
+In pairs or small groups, take time to look at Anni Albers' ["Untitled - 1969"](https://nmwa.org/works/untitled-3) painting below.
 
 <img src="readme_imgs/albers.png" width="400px">
-
-*Anni Albers, "Untitled", 1969*
 
 1) **Describe** the painting. Note elements like shapes, colors, grids, or systems. Be as precise as possible. If you were going to instruct a classmate how to draw this, how would you instruct them?
 
