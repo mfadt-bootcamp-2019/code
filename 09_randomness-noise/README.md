@@ -48,7 +48,7 @@ There are many ways we could code this. Together we will write the code in five 
 
 **Challenge set 2**
 1) Write an alternative method for producing the class sketch. For example, consider using the [`rotate()`](https://processing.org/reference/rotate_.html) function.
-1) For each grid position, add the option to drop an orange square instead of just triangles.
+1) For each grid position, add the option to drop an orange *square* instead of just triangles.
 1) Change the triangles / squares into randomly sized circles.
 1) Animate the pattern so that it changes every second.
 
