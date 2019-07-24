@@ -42,7 +42,7 @@ There are many ways we could code this. Together we will write the code in five 
 ## Individual challenges (Processing)
 
 **Challenge set 1**
-1) Modify the sketch to be 30x34 triangles rather than 10x10.
+1) Modify the sketch to be 30x34 squares rather than 10x10.
 1) How about 100x100? 500x500?
 1) Return the grid back to 30x34. Change the colors from blue and orange to green and purple.
 
