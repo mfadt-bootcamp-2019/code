@@ -1,8 +1,6 @@
 # Week 1 - Day 4
 
-> **Comparison and logical operators** 
-> Aug 1, 2019
-> Status: ready for review
+> **Comparison and logical operators**, Aug 1, 2019 (ready for review)
 
 
 ## Summary
