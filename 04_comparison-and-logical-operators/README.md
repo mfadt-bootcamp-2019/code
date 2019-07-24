@@ -97,7 +97,20 @@ Suggested steps:
 
 
 ## Reflection
-TODO(anna)
+
+This module concludes the introduction of all of our *core concepts*. The next two weeks of class will build on these concepts by exploring more complex and creative applications: e.g. designing tiled patterns, recreating paintings using code. Before we move onto these future lessons, we want to know where students are at.
+
+This anonymous survey is designed to help us 1) know what topics to review on Friday and 2) anticipate any necessary tweaks to the next two weeks of the course. For example, a survey response may look like the following.
+
+| Topic | \[1\] I still have questions, and I'd like to go over this topic again in detail. | \[2\] I think understand what we learned, but a short review would be helpful. | \[3\] I'm very confident that I understand this topic, and I don't need any review. |
+| -- | :--: | :--: | :--: |
+| Setting up Processing | | | X |
+| Using Github | | X | |
+| Writing pseudocode | | | X |
+| Using flowcharts to map out code's logic | | | X |
+| Using variables | | | X |
+| Using conditionals | | X | |
+| Using operators | | X | |
 
 
 [1]: https://processing.org/examples/operatorprecedence.html
