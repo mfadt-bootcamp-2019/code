@@ -1,21 +1,47 @@
-// Start with some nice colors :)
-color orange = color(239, 96, 48);
+// Background color
 color blue = color(105, 184, 223);
+color orange = color(239, 96, 48);
+
+// Grid size and step variables
+int numCols = 10;
+int numRows = 10;
 
 void setup() {
-	size(800, 800);
-	background(blue);
-	noStroke();
-	noLoop();
+  // Set an 800x800px canvas with a blue background
+  size(800, 800);
+  background(blue);
+  noStroke();
+  // Toggle guidelines
+  // stroke(255);
+  fill(orange);
+  noLoop();
 }
 
 void draw() {
-	// Create a 2D array of points that can form the vertices of our triangle
-	int[][] trianglePoints = {{0, 0}, {0, height}, {width, height}, {width, 0}};
-	// We need a random number between 0 and 3 (inclusive)
-	int rand = int(random(4));
-	fill(orange);
-	// We draw a triangle by starting with a random vertex, and then picking the next two vertices in the array
-	// as the other vertices of our triangle
-	triangle(trianglePoints[rand][0], trianglePoints[rand][1], trianglePoints[(rand + 1) % 4][0], trianglePoints[(rand + 1) % 4][1], trianglePoints[(rand + 2) % 4][0], trianglePoints[(rand + 2) % 4][1]);
+  background(blue);
+  float stepX = width / numCols;
+  float stepY = height / numRows;
+  for (int x = 0; x < width; x += stepX) {
+    for (int y = 0; y < height; y += stepY) {
+      
+      // Toggle guidelines
+      // line(x, 0, x, height);
+      // line(0, y, width, y);
+      
+      // Define the possible points for each triangle
+      float[][] pts = {{x, y}, {x, y + stepY}, {x + stepX, y + stepY}, {x + stepX, y}};
+      
+      // Choose a random starting point for the triangle
+      int rand = int(random(4));
+      
+      // Beginning with the random point, find the two consecutive points
+      // from our list of triangle points. Together, these three points
+      // create a triangle.
+      triangle(
+        pts[rand][0], pts[rand][1],
+        pts[(rand + 1) % 4][0], pts[(rand + 1) % 4][1],
+        pts[(rand + 2) % 4][0], pts[(rand + 2) % 4][1]
+      );
+    }
+  }
 }
