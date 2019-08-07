@@ -1,18 +1,15 @@
-// Background color
-color blue = color(105, 184, 223);
-color orange = color(239, 96, 48);
+color blue = color(105, 184, 223); // Background color
+color orange = color(239, 96, 48); // Stroke color
 
 // Grid size and step variables
 int numCols = 10;
 int numRows = 10;
 
 void setup() {
-  // Set an 800x800px canvas with a blue background
-  size(800, 800);
-  background(blue);
-  stroke(orange);
-  strokeWeight(5);
-  noLoop();
+  size(800, 800); // Set an 800x800px canvas
+  stroke(orange); // orange stroke color
+  strokeWeight(10); // thick stroke weight
+  noLoop(); // only one draw frame
 }
 
 void draw() {
@@ -26,7 +23,7 @@ void draw() {
   }
 }
 
-
+// Custom fxn draws one of two lines when called.
 void drawLine(float x, float y, float stepX, float stepY) {
   float rand = random(1);
   if (rand < .5) {
