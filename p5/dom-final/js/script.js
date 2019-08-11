@@ -49,7 +49,7 @@ function circleSentence(sentence, r, fontSize, speed) {
 
     push();
 
-    translate(r * cos(theta), r * sin(theta));
+    translate(r * sin(theta), r * cos(theta));
 
     rotate(theta + PI / 2);
     text(currentChar, 0, 0);

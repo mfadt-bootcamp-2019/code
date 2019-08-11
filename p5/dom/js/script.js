@@ -26,12 +26,11 @@ function draw() {
   var size = textContent.length;
   var arclength = 0;
   var space = (2 * PI * r) / size;
-  arclength += ((space / 2) * millis()) / 200;
+  // arclength += ((space / 2) * millis()) / 200;
 
   for (let i = 0; i < size; i++) {
     let currentChar = textContent.charAt(i);
-
-    arclength += space / 2;
+    arclength += space;
     // Angle in radians is the arclength divided by the radius
     var theta = arclength / r;
 
@@ -42,7 +41,5 @@ function draw() {
     rotate(theta + PI / 2);
     text(currentChar, 0, 0);
     pop();
-    // Move halfway again
-    arclength += space / 2;
   }
 }
