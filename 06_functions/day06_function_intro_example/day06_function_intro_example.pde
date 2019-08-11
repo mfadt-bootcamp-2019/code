@@ -13,25 +13,21 @@ void setup(){
 
 }
 
-
 void draw(){
 //draw first person
-  circle(x1,y1,50);
-  line(x1,y1+25,x1,y1+50);
-  line(x1,y1+50,x1-40,y1+70);
-  line(x1,y1+50,x1+40,y1+70);
-  line(x1, y1+50,x1,y1+100);
-  line(x1,y1+100,x1-40,y1+120);
-  line(x1,y1+100,x1+40,y1+120);
-  
-  
-//draw second person
-  
-  circle(x2,y2,50);
-  line(x2,y2+25,x2,y2+50);
-  line(x2,y2+50,x2-40,y2+70);
-  line(x2,y2+50,x2+40,y2+70);
-  line(x2, y2+50,x2,y2+100);
-  line(x2,y2+100,x2-40,y2+120);
-  line(x2,y2+100,x2+40,y2+120);
+  drawPerson(x1,y1);
+  drawPerson(x2,y2);
+}
+
+
+void drawPerson(int positionX, int positionY){
+
+  circle(positionX,positionY,50);
+  line(positionX,positionY+25,positionX,positionY+50);
+  line(positionX,positionY+50,positionX-40,positionY+70);
+  line(positionX,positionY+50,positionX+40,positionY+70);
+  line(positionX, positionY+50,positionX,positionY+100);
+  line(positionX,positionY+100,positionX-40,positionY+120);
+  line(positionX,positionY+100,positionX+40,positionY+120);
+
 }
