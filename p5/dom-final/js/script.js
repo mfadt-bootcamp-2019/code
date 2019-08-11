@@ -17,28 +17,30 @@ function windowResized() {
 }
 
 function draw() {
-  var textContent = document.getElementById("typing-area").value;
+  var textContent1 = document.getElementById("typing-area1").value;
+  var textContent2 = document.getElementById("typing-area2").value;
+  var textContent3 = document.getElementById("typing-area3").value;
 
   background(0);
   translate(width / 2, height / 2);
   noFill();
   stroke(255);
-  var size = textContent.length;
+  var size = textContent1.length;
   var arclength = 0;
   var space = (2 * PI * r) / size;
   arclength += ((space / 2) * millis()) / 200;
 
   for (let i = 0; i < size; i++) {
-    let currentChar = textContent.charAt(i);
-    // let w = textWidth(currentChar) + space;
+    let currentChar = textContent1.charAt(i);
+
     arclength += space / 2;
     // Angle in radians is the arclength divided by the radius
     var theta = arclength / r;
 
     push();
-    // Polar to cartesian coordinate conversion
+
     translate(r * cos(theta), r * sin(theta));
-    // Rotate the box
+
     rotate(theta + PI / 2);
     text(currentChar, 0, 0);
     pop();
@@ -46,5 +48,3 @@ function draw() {
     arclength += space / 2;
   }
 }
-
-var textContent = document.getElementById("typing-area").value;

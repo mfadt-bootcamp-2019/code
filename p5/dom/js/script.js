@@ -30,7 +30,7 @@ function draw() {
 
   for (let i = 0; i < size; i++) {
     let currentChar = textContent.charAt(i);
-    // let w = textWidth(currentChar) + space;
+
     arclength += space / 2;
     // Angle in radians is the arclength divided by the radius
     var theta = arclength / r;
@@ -38,7 +38,7 @@ function draw() {
     push();
     // Polar to cartesian coordinate conversion
     translate(r * cos(theta), r * sin(theta));
-    // Rotate the box
+
     rotate(theta + PI / 2);
     text(currentChar, 0, 0);
     pop();
