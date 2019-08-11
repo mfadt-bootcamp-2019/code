@@ -10,42 +10,22 @@
 
   <body>
     <div id="game"></div>
-    <div class="colors">
-      <input
-        class="r-range"
-        type="range"
-        min="0"
-        max="255"
-        value="1"
-        step="1"
-      />
-      <input
-        class="g-range"
-        type="range"
-        min="0"
-        max="255"
-        value="1"
-        step="1"
-      />
-      <input
-        class="b-range"
-        type="range"
-        min="0"
-        max="255"
-        value="1"
-        step="1"
-      />
-    </div>
-    <div class="typing">
-      <textarea id="typing-area1" rows="4" cols="50"> A</textarea>
+
+    <div>
+      <input type="color" id="body" name="body" value="#f6b73c" />
+      <label>Sentence Color</label>
     </div>
 
     <div class="typing">
-      <textarea id="typing-area2" rows="4" cols="50"> A</textarea>
+      <textarea id="typing-area1" rows="4" cols="50"></textarea>
     </div>
 
     <div class="typing">
-      <textarea id="typing-area3" rows="4" cols="50"> A</textarea>
+      <textarea id="typing-area2" rows="4" cols="50"></textarea>
+    </div>
+
+    <div class="typing">
+      <textarea id="typing-area3" rows="4" cols="50"></textarea>
     </div>
 
     <script src="js/script.js"></script>

@@ -20,14 +20,13 @@ function draw() {
   var textContent2 = document.getElementById("typing-area2").value;
   var textContent3 = document.getElementById("typing-area3").value;
 
-  var rRange = document.querySelector(".r-range").value;
-  var gRange = document.querySelector(".g-range").value;
-  var bRange = document.querySelector(".b-range").value;
+  var inputColor = document.querySelector("input[type='color']").value;
+  let c = color(inputColor);
 
   background(0);
   translate(width / 2, height / 2);
   noFill();
-  stroke(rRange, gRange, bRange);
+  stroke(c);
 
   circleSentence(textContent1, 200, 30, 200);
   circleSentence(textContent2, 150, 20, 300);
