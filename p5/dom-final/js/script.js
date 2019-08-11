@@ -1,5 +1,4 @@
 let font;
-let r = 200;
 
 function preload() {
   font = loadFont("assets/franklin-gothic-bold.ttf");
@@ -8,7 +7,7 @@ function preload() {
 function setup() {
   var canvas = createCanvas(windowWidth / 2, windowHeight);
   canvas.parent("game");
-  textFont(font, 30);
+  // textFont(font, 30);
   textAlign(CENTER);
 }
 
@@ -21,17 +20,29 @@ function draw() {
   var textContent2 = document.getElementById("typing-area2").value;
   var textContent3 = document.getElementById("typing-area3").value;
 
+  var rRange = document.querySelector(".r-range").value;
+  var gRange = document.querySelector(".g-range").value;
+  var bRange = document.querySelector(".b-range").value;
+
   background(0);
   translate(width / 2, height / 2);
   noFill();
-  stroke(255);
-  var size = textContent1.length;
+  stroke(rRange, gRange, bRange);
+
+  circleSentence(textContent1, 200, 30, 200);
+  circleSentence(textContent2, 150, 20, 300);
+  circleSentence(textContent3, 100, 15, 400);
+}
+
+function circleSentence(sentence, r, fontSize, speed) {
+  textFont(font, fontSize);
+  var size = sentence.length;
   var arclength = 0;
   var space = (2 * PI * r) / size;
-  arclength += ((space / 2) * millis()) / 200;
+  arclength += ((space / 2) * millis()) / speed;
 
   for (let i = 0; i < size; i++) {
-    let currentChar = textContent1.charAt(i);
+    let currentChar = sentence.charAt(i);
 
     arclength += space / 2;
     // Angle in radians is the arclength divided by the radius
