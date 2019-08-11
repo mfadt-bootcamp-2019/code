@@ -5,29 +5,46 @@
 
 int x1 = 100;
 int y1 = 100;
-int x2 = 400;
-int y2 = 100;
+//int x2 = 400;
+//int y2 = 100;
+String x2 = "baby";
+
 void setup(){
 
   size(640,360);
 
 }
 
+
 void draw(){
 //draw first person
-  drawPerson(x1,y1);
-  drawPerson(x2,y2);
+  background(255);
+  circle(x1,y1,50);
+  line(x1,y1+25,x1,y1+50);
+  line(x1,y1+50,x1-40,y1+70);
+  line(x1,y1+50,x1+40,y1+70);
+  line(x1, y1+50,x1,y1+100);
+  line(x1,y1+100,x1-40,y1+120);
+  line(x1,y1+100,x1+40,y1+120);
+  
+  
+//draw second person
+  drawOneGuy(400,100);
+//draw a third guy
+  drawOneGuy(mouseX,mouseY);
+  drawOneGuy(mouseX +10,mouseY +10);
+  
+  println(x2);
 }
 
-
-void drawPerson(int positionX, int positionY){
-
-  circle(positionX,positionY,50);
-  line(positionX,positionY+25,positionX,positionY+50);
-  line(positionX,positionY+50,positionX-40,positionY+70);
-  line(positionX,positionY+50,positionX+40,positionY+70);
-  line(positionX, positionY+50,positionX,positionY+100);
-  line(positionX,positionY+100,positionX-40,positionY+120);
-  line(positionX,positionY+100,positionX+40,positionY+120);
-
+void drawOneGuy(int posX, int posY){
+  int x2 = posX;
+  int y2 = posY;
+  circle(x2,y2,50);
+  line(x2,y2+25,x2,y2+50);
+  line(x2,y2+50,x2-40,y2+70);
+  line(x2,y2+50,x2+40,y2+70);
+  line(x2, y2+50,x2,y2+100);
+  line(x2,y2+100,x2-40,y2+120);
+  line(x2,y2+100,x2+40,y2+120);
 }

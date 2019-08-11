@@ -12,13 +12,10 @@ void draw(){
   fill(c);
   rect(mouseX, mouseY, rectWidth, rectHeight);
   
-  if(isTrue)
-  {
+  if(isTrue){
     println("It's True!");
-  }else
-  {
+  }else{
     println("It's False!");
   }
-  
   
 }
